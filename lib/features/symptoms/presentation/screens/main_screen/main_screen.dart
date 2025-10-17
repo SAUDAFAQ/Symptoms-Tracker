@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'symptoms_page.dart';
-import 'symptoms_list_page.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../symptoms_page/symptoms_page.dart';
+import '../symptoms_list_page/symptoms_list_page.dart';
+import '../symptoms_page/cubit/symptom_cubit.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({super.key});
@@ -50,7 +52,10 @@ class MainScreen extends StatelessWidget {
                   onPressed: () {
                     Navigator.of(context).push(
                       MaterialPageRoute(
-                        builder: (context) => const SymptomsPage(),
+                        builder: (context) => BlocProvider.value(
+                          value: context.read<SymptomCubit>(),
+                          child: const SymptomsPage(),
+                        ),
                       ),
                     );
                   },
@@ -81,7 +86,10 @@ class MainScreen extends StatelessWidget {
                   onPressed: () {
                     Navigator.of(context).push(
                       MaterialPageRoute(
-                        builder: (context) => const SymptomsListPage(),
+                        builder: (context) => BlocProvider.value(
+                          value: context.read<SymptomCubit>(),
+                          child: const SymptomsListPage(),
+                        ),
                       ),
                     );
                   },

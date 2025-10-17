@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../cubit/symptom_cubit.dart';
-import '../cubit/symptom_state.dart';
-import '../widgets/symptom_diary_widget.dart';
+import 'cubit/symptom_cubit.dart';
+import 'cubit/symptom_state.dart';
+import '../../shared/widgets/symptom_diary_widget.dart';
 
 class SymptomsPage extends StatefulWidget {
   const SymptomsPage({super.key});

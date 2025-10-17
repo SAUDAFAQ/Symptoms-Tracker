@@ -3,7 +3,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../../features/symptoms/data/datasources/symptom_local_datasource.dart';
 import '../../features/symptoms/data/repositories/symptom_repository_impl.dart';
 import '../../features/symptoms/domain/repositories/symptom_repository.dart';
-import '../../features/symptoms/presentation/cubit/symptom_cubit.dart';
+import '../../features/symptoms/presentation/screens/symptoms_page/cubit/symptom_cubit.dart';
 
 final sl = GetIt.instance;
 

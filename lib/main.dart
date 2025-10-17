@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'core/di/injection_container.dart' as di;
-import 'features/symptoms/presentation/cubit/symptom_cubit.dart';
-import 'features/symptoms/presentation/pages/splash_screen.dart';
+import 'features/symptoms/presentation/screens/symptoms_page/cubit/symptom_cubit.dart';
+import 'features/symptoms/presentation/screens/splash_screen/splash_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

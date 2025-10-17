@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../domain/entities/symptom.dart';
-import '../../domain/repositories/symptom_repository.dart';
+import '../../../../domain/entities/symptom.dart';
+import '../../../../domain/repositories/symptom_repository.dart';
 import 'symptom_state.dart';
 
 class SymptomCubit extends Cubit<SymptomState> {

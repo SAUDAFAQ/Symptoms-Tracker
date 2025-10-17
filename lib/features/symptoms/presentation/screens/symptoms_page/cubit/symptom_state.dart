@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import '../../domain/entities/symptom.dart';
+import '../../../../domain/entities/symptom.dart';
 
 abstract class SymptomState extends Equatable {
   const SymptomState();
