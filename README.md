@@ -2,6 +2,25 @@
 
 A Flutter application for tracking daily symptoms with clean architecture and Cubit state management.
 
+## Screenshots
+
+### Splash Screen
+![Splash Screen](screenshots/splash_screen.png)
+*Splash screen displayed at app startup with logo and animated progress indicator*
+
+
+### 🏠 Main Screen
+![Main Screen](screenshots/main_screen.png)
+*Main menu with options to add symptoms or view all symptoms*
+
+### 🎯 Add Symptoms Screen
+![Add Symptoms Screen](screenshots/add_symptoms_screen.png)
+*Interactive symptom entry form with severity sliders*
+
+### 📋 Symptoms List Screen
+![Symptoms List Screen](screenshots/symptoms_list_screen.png)
+*Complete list of all recorded symptoms with date grouping*
+
 ## Features
 
 - Add symptoms with name, severity (1-5 scale), and date
